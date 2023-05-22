@@ -1,0 +1,69 @@
+.main_card {
+    width: 30.43rem;
+    height: 10rem !important;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address_card_left {
+    padding-left: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+
+
+}
+
+.address_card_left h6 {
+    color: #c99f19;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.87rem;
+}
+
+
+.address_card_left p:first-of-type {
+    color: #18A3AE;
+    font-weight: 500;
+    font-size: 1.06rem;
+    line-height: 1.59rem;
+    margin: 0;
+}
+
+.address_card_left p:not(:first-of-type) {
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 1.40rem;
+    margin-left: 0;
+    color: black;
+}
+
+.address_card_right {
+    padding-top: 2px;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40%;
+    overflow: hidden;
+}
+
+.address_card_right p {
+    padding-top: 0;
+}
+
+.span_left {
+    color: #18A3AE;
+    font-weight: 500;
+    font-size: 1.06rem;
+    line-height: 1.59rem;
+}
+
+.span_right {
+    color: black;
+    /* text-align: right; */
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 1.40rem;
+}

@@ -1,0 +1,38 @@
+.MPIN_Card {
+    width: 57.5rem;
+    height: 22.31rem;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    align-items: center;
+    padding: 1rem;
+}
+
+.MPIN_Card h5 {
+    color: #c99f19;
+}
+
+.line {
+    border: 1rem solid black !important;
+    width: 100%;
+    display: inline;
+
+}
+
+.MPIN_text {
+    color: #028C45;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.51rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.MPIN_button {
+    background-color: #18939B;
+    color: white;
+    width: 39.75rem;
+    height: 2.75rem;
+    top: 30.5rem;
+    left: 30.37rem;
+    margin-top: 4rem;
+}
